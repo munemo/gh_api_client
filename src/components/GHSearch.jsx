@@ -4,10 +4,17 @@ import { Button, Input } from 'semantic-ui-react'
 const GHSearch = () => {
   return (
     <>
-      <Input type="text" name="search" placeholder="Input GH username"/>
-      <Button name="search">Search</Button>
+      <Input
+        id="input"
+        type="text"
+        name="search"
+        placeholder="Input GH username"
+      />
+      <Button id="button"  name="search">
+        Search
+      </Button>
     </>
-  )
+  );
 }
 
 export default GHSearch
